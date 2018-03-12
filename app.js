@@ -3,10 +3,11 @@ var student = {
     type : "student"
 };
 
-document.addEventListener('DOMContentLoaded', contenntLoaded);
+document.addEventListener('DOMContentLoaded', contentLoaded);
 
-function contenntLoaded(event) {
-    document.getElementById('name').addEventListener("keyup", keyup);
+function contentLoaded(event) {
+    document.getElementById('name').addEventListener("keyup", keyUp);
+
 }
 
 function keyUp(event) {
@@ -14,14 +15,14 @@ function keyUp(event) {
 }
 
 function calculateNumericOutput() {
-    student.name = documentgetElementById('name').value;
+    student.name = document.getElementById('name').value;
+   // document.getElementById('check').innerHTML = student.name; 
 
-
-    var totalNamevalue = 0;
+    var totalNameValue = 0;
     for( var i = 0; i < student.name.length; i++) {
         totalNameValue += student.name.charCodeAt(i);
     }
     //Insert Result into Page
-    var output = "Totl Numeric value of person's name is " + totalNameValue;
+    var output = "Total Numeric value of person's name is " + totalNameValue;
     document.getElementById('output').innerText = output;
 }
