@@ -1,4 +1,4 @@
-var myPets = [
+[
     {
         "name": "Meowsalot",
         "species": "cat",
@@ -9,4 +9,4 @@ var myPets = [
         "species": "dog",
         "favFood":"meat"
     }
-    ]
+]
