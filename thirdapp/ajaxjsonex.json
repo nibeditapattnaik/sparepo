@@ -1,0 +1,12 @@
+var myPets = [
+    {
+        "name": "Meowsalot",
+        "species": "cat",
+        "favFood":"fish"
+    },
+    {
+        "name": "Barky",
+        "species": "dog",
+        "favFood":"meat"
+    }
+    ]
